@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(250, 179, 230); /* Cor de fundo */
+    color: #000000;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif    ;
+    
+}
+
+
+header {
+    background-color: #d761db; 
+    padding: 10px 0;
+    text-align: center;
+    color: #ffffff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    color: #000000; /* Cor do texto dos links */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ffd700; /* Cor ao passar o mouse */
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+.card {
+    background: rgb(255, 255, 255);
+    border-radius: 8px;
+    padding: 15px;
+    margin: 10px 0;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efeito de hover nos cards */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, textarea {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: none;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #fa71c8;
+    color: #000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #e6b800; /* Cor do botão ao passar o mouse */
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #e35aef; /* Cor do rodapé */
+}
+
+.social a {
+    margin: 0 10px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.social a:hover {
+    color: #ffd700; /* Cor dos links sociais ao passar o mouse */
+}
+
+#sinopse {
+    color: #86198a;
+}
+
+#elenco {
+    color: #86198a;
+}
+
+#trailer {
+
+    color: #86198a;
+}
+
+#curiosidade {
+color: #86198a;
+}
+
+#contato {
+    color: #86198a;
+}
+
+#foto {
+     float: right;
+     margin-top: -100px;
+}
+
